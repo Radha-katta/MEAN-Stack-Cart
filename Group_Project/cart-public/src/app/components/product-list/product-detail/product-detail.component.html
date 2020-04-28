@@ -1,0 +1,23 @@
+
+<div class="row detailRow">
+  <div class="col " >
+    <div class="row">
+      <img mat-card-image [src]="product.imageUrl || ''" >
+    </div>
+
+   <div class="row btnRow">
+     <button  class="btn btn-primary" (click)="handleAddToCart(product)">Add to cart</button>
+    <!-- <button  class="btn btn-primary">Buy Now</button>-->
+   </div>
+  </div>
+
+  <div class="col">
+    <strong><small class="text-muted">{{product.price | currency}}</small></strong>
+    <p class="card-text">{{product.name}}</p>
+    <p class="card-text">{{product.description}}</p>
+  </div>
+</div>
+
+
+
+

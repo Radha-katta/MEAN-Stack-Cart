@@ -1,0 +1,20 @@
+.row{
+  height: 250px;
+}
+.detailRow{
+  margin-top:50px;
+}
+.detailCol{
+  display:inline;
+}
+img{
+  height: 200px;
+}
+.btnRow{
+  height: 20px;
+}
+.btnRow button{
+  margin:10px;
+  margin-left: 300px;
+  background-color: blue;
+}

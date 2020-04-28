@@ -1,0 +1,25 @@
+<div class="container">
+<div class="row" >
+  <div class="col-sm">
+    <img class="bd-placeholder-img card-img-top p-2"
+         width="50%" src="{{cartItem.data.imageUrl}}">
+  </div>
+
+  <div class="col-sm">
+    <p class="card-text-sm">{{cartItem.data.name}}</p>
+    <strong><small class="text-muted">{{cartItem.quantity }} X{{cartItem.data.price | currency}}</small></strong>
+    <div><small class="text-muted">Total : {{(cartItem.quantity * cartItem.data.price | currency)}}</small></div>
+  </div>
+  <div class="col-sm">
+    <div class="number">
+      <span class="minus" (click)="decrementProductQuantity()" >-</span>
+      <input type="text" value="{{cartItem.quantity}}"/>
+      <span class="plus" (click)="incrementProductQuantity()">+</span>
+    </div>
+    <div class="remove">
+      <button class="btn btn-primary" (click)="removeCartItem(cartItem)">Remove</button>
+    </div>
+  </div>
+
+</div>
+</div>

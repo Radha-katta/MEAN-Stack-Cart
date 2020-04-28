@@ -1,0 +1,29 @@
+<!--<div class="card mb-4 box-shadow" >
+  <img class="bd-placeholder-img card-img-top p-2"
+  width="50%" [src]="productItem.imageUrl">
+  <div class="card-body">
+    <strong><small class="text-muted">{{productItem.price | currency}}</small></strong>
+    <p class="card-text">{{productItem.name}}</p>
+    <p class="card-text">{{productItem.description}}</p>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-primary"
+        (click)="handleAddToCart()">Add to cart</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+<a (click)="showProductDetail(productItem)">
+  <mat-card class="example-card">
+    <img mat-card-image [src]="productItem.imageUrl" >
+    <mat-card-content>
+      <strong><small class="text-muted">{{productItem.price | currency}}</small></strong>
+      <p class="card-text">{{productItem.name}}</p>
+      <p class="card-text">{{productItem.description}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+
+    </mat-card-actions>
+  </mat-card>
+</a>

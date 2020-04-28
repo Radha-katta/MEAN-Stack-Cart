@@ -1,0 +1,64 @@
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row>
+
+    <a mat-button [routerLink]="'/home'"> R Store </a>
+    <div class="col-8">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search this site">
+        <div class="input-group-append">
+          <button class="btn btn-secondary search-Button" type="button">
+            <i class="fa fa-search form-control-feedback"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col account">
+      <button mat-icon-button [matMenuTriggerFor]="auth">
+        <mat-icon>person_outline</mat-icon>
+      </button>
+      <mat-menu #auth="matMenu">
+        <button mat-menu-item (click)="showCartItems()">
+          <mat-icon>shopping_cart</mat-icon>
+          <span>Cart Items</span>
+        </button>
+        <button mat-menu-item (click)="showOrderedItems()">
+          <mat-icon>shop</mat-icon>
+          <span>Order history</span>
+        </button>
+        <button mat-menu-item (click)="clearSession()" >
+          <mat-icon>exit_to_app</mat-icon>
+          <span>Sign out</span>
+        </button>
+
+      </mat-menu>
+    </div>
+
+
+
+  <!--  <div class="col">
+      <a routerLink="../" class="btn btn-info btn-md " (click)="clearSession()">
+        <span class="glyphicon glyphicon-log-out"></span> Log out
+      </a>
+    </div>
+
+    <button mat-icon-button> <a mat-button [routerLink]=""> Logout </a>
+      &lt;!&ndash; <mat-icon (click)="sidenav.toggle()">menu</mat-icon>&ndash;&gt;
+    </button>
+-->
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+
+
+    <span class="menu-spacer"></span>
+    <div class="nav-links">
+      <a mat-button [routerLink]="'/men'"> Men </a>
+      <a mat-button [routerLink]="'/women'">Women</a>
+      <a mat-button [routerLink]="'/kids'"> Kids </a>
+      <a mat-button [routerLink]="'/electronics'">Electronics</a>
+      <a mat-button [routerLink]="'/furniture'"> Furniture </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+

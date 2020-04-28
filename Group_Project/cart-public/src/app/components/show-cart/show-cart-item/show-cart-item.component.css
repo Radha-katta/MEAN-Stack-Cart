@@ -1,0 +1,47 @@
+span {cursor:pointer; }
+.number{
+  margin:30px;
+}
+.minus, .plus{
+  width:20px;
+  height:30px;
+  background:#f2f2f2;
+  border-radius:4px;
+  padding:8px 5px 8px 5px;
+  border:1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+input {
+  height: 34px;
+  width: 80px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  height: 130px;
+  /* width: 339px; */
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+.row{
+  border: 1px solid lightgrey;
+  width: 1000px;
+  height: 130px;
+}
+.remove{
+  margin-top: -15px;
+  margin-left: 50px;
+}
+.btn-primary{
+  background-color: #303F9F;
+}
+
+
+

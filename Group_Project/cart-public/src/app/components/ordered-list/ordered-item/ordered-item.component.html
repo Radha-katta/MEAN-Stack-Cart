@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row" >
+    <div class="col-sm">
+      <img class="bd-placeholder-img card-img-top p-2"
+           width="50%" src="{{orderedItem.data.imageUrl}}">
+    </div>
+
+    <div class="col-sm">
+      <p class="card-text-sm">{{orderedItem.data.name}}</p>
+      <strong><small class="text-muted">{{orderedItem.quantity }} X{{orderedItem.data.price | currency}}</small></strong>
+      <div><small class="text-muted">Total : {{(orderedItem.quantity * orderedItem.data.price | currency)}}</small></div>
+    </div>
+  </div>
+</div>

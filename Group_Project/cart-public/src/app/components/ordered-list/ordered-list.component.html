@@ -1,0 +1,17 @@
+
+<div *ngIf="orderedProducts.length ===0" class="alert alert-info">Your Ordered Items  is Empty.</div>
+
+<ul *ngIf="orderedProducts.length >0" class="list-group">
+  <div class="row">
+    <li class="list-group-item" *ngFor="let item of orderedProducts">
+      <app-ordered-item [showOrderedItem] ="item"  ></app-ordered-item>
+    </li>
+  </div>
+  <div class="">
+    <div class="">
+      <li class="list-group-item active total" >
+        <strong>Total </strong>{{cartTotal |currency}}
+      </li>
+    </div>
+  </div>
+</ul>

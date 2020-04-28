@@ -1,0 +1,33 @@
+nav{
+  background-color: lightgoldenrodyellow;
+}
+.search-bar { background-color: #222; }
+.search-bar * { color: white !important; }
+.search-bar input { border-bottom-color: white; }
+.md-errors-spacer { display:none; }
+
+.nav-links>a{
+  font-size:15px;
+  margin: 80px;
+}
+a:hover{
+ background-color: #FFFFFF;
+  color: black;
+  text-decoration: none;
+}
+.form-control-feedback{
+  color: blue;
+}
+.search-Button{
+  background-color: white;
+}
+.cart-icon{
+  color:white;
+  font-size: 15px;
+  margin: 45px;
+}
+
+.account{
+  padding-left: 350px;
+}
+

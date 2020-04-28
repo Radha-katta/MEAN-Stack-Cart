@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef339837-46e7-4b32-9e1a-ec9d28d6d274" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1aUsMZEVKMGY4ToUNN8G7k1C2Ip" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cart-public/src/assets/women/6" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\radha\Desktop\Group_Project\cart-public\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\furniture\6" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\furniture\5" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\furniture\4" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\furniture\3" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\furniture\2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\women\6" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\women\5" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\women\4" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\women\3" />
+      <recent name="C:\Users\radha\Desktop\Group_Project\cart-public\src\assets\women\2" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef339837-46e7-4b32-9e1a-ec9d28d6d274" name="Default Changelist" comment="" />
+      <created>1586801460501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586801460501</updated>
+      <workItem from="1586801465881" duration="1205000" />
+      <workItem from="1586803816782" duration="50092000" />
+      <workItem from="1586984723999" duration="28604000" />
+      <workItem from="1587068624909" duration="18968000" />
+      <workItem from="1587136722935" duration="52644000" />
+      <workItem from="1587257519379" duration="11578000" />
+      <workItem from="1587491482965" duration="5633000" />
+      <workItem from="1587497604366" duration="6400000" />
+      <workItem from="1587948267373" duration="19104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cart-public/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588016457898">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="433" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588016457898" />
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1588028177288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588028177288" />
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586904448625">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586904448625" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587498482980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587498482980" />
+    <state x="0" y="0" width="710" height="728" key="find.popup" timestamp="1588026192962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="710" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588026192962" />
+    <state x="405" y="282" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1587243934991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="282" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1587243934991" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/cart-public/src/app/models/product.ts</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
